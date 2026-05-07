@@ -4,7 +4,8 @@ use std::collections::VecDeque;
 use std::thread;
 use rand::Rng;
 
-//The FIFO is the first code presented and the Optimized code is right below it (Line 462)
+//The FIFO is the first code presented and the Optimized code is right below it (Line 463)
+
 
 fn fmt_ms(d: Duration) -> f64 {
     d.as_secs_f64() * 1000.0
